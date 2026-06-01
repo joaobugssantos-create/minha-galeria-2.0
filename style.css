@@ -24,7 +24,7 @@ h1{
 
     display : grid; /*faz  a tela ficar em 3x3*/
 
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); /*cria colunas, auto fit= encoixa as colunas, minmax= restringe o numero de colunas*/
+    grid-template-columns: repeat(auto-fit, minmax(500px,1fr)); /*cria colunas, auto fit= encoixa as colunas, minmax= restringe o numero de colunas*/
 
     margin: auto; /*margem*/
 
@@ -32,8 +32,8 @@ h1{
 
 .imagem img {
 
-    width: 100%; 
-    max-width: 500px; /*define a largura*/
+    width: 50%; 
+    max-width: 490px; /*define a largura*/
     height: auto; /*define a altura*/
 
     justify-self: center;
